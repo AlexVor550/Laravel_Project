@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 
-class AdminPanelMiddleware
+class MultiUserAuth
 {
     
     public function handle(Request $request, Closure $next, $userType)
